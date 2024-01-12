@@ -1,0 +1,250 @@
+* {
+    font-family: sans-serif;
+    color: hwb(306 66% 17% / 0.849);    
+}
+
+body {
+    background: linear-gradient(271deg, rgba(255, 239, 254, 0.00) 14.97%, rgba(255, 239, 254, 0.83) 78.04%);
+}
+
+p {
+    text-align: justify;
+    padding: 5px;
+}
+
+i {
+    align-items: center;
+}
+
+#barraNav {
+    background: linear-gradient(271deg, rgba(255, 239, 254, 0.00) 14.97%, rgba(255, 239, 254, 0.83) 78.04%);
+}
+
+#logotop{
+    width:25%;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    #logotop {
+        width:15%;
+    }
+}
+
+@media (min-width: 992px) {
+    #logotop {
+        width:18%;
+    }
+}
+
+#barraNav a {    
+    font-size: 18px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: hwb(306 66% 17% / 0.849);    
+}
+
+@media (min-width: 768px) {
+    #barraNav a {    
+        font-size: 28px;
+        margin-left: 20px;    
+    }
+}
+
+#barraNav a:hover {
+    color: hsl(327, 21%, 92%);
+}
+
+@media (min-width: 768px) {
+.navbar-nav { 
+        margin-left: 250px;
+    }
+}
+
+#title {
+    font-size: 38px;
+    font-weight: 700;    
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+    #title {           
+        font-size: 60px; 
+        margin-top: 25px;                 
+    }
+}
+
+#nome {
+    font-family:'Babylonica';
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: 36px;
+    font-weight: 400;
+    color: hwb(306 66% 17% / 0.849);    
+}
+
+@media (min-width: 768px) {
+    #nome {           
+        font-size: 70px; 
+        margin-right: 100px;                  
+    }
+}
+
+img {
+    border-radius: 15px;
+    opacity: 0.8;
+    display: inline-flex;
+    align-items: left;
+    width: 30%;  
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+    img {
+        display: inline-flex;
+        align-items: left;
+        width: 25%;  
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+}
+
+#sobre { 
+    margin-top: 15px; 
+    margin-bottom: 15px;  
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#consul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    #sobre { 
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #consul {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 20px;        
+    }
+}
+
+#avFisica {
+    background-color: hsla(293, 52%, 75%, 0.267);
+    border-radius: 45px;
+    margin-right: 5px;
+}
+
+#avFisica h5 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#avFisica p {
+    text-align: center;
+}
+
+#avFisica p i {    
+    color: rgb(224, 117, 117);
+}
+
+
+@media (min-width: 768px) {
+    #avFisica {
+        margin-top: 30px;       
+        margin-right: 10px;
+    }
+
+    #avFisica li {
+        font-size: 22px;
+    }
+
+    #avFisica h5 {
+        font-size: 30px;
+    }
+}
+
+
+#avNutricional{
+    background-color: hsla(293, 52%, 75%, 0.267);
+    border-radius: 45px;    
+}
+
+
+
+#avNutricional h5 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+    #avNutricional{
+        margin-top: 30px;
+        margin-left: 15px;   
+    }
+
+    #avNutricional li {
+        font-size: 22px;
+    }
+
+    #avNutricional h5 {
+        font-size: 30px;
+    }
+}
+
+.container h3{
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+.container-fluid li{
+    display: inline-block;    
+    text-align: center;
+    margin: 10px;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.container-fluid i:hover {
+    color: hsl(327, 21%, 92%);
+}
+
+@media (min-width: 768px) {
+    .container-fluid a {
+        font-size: 30px;
+        margin-right: 25px;
+    }
+}
